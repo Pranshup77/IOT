@@ -1,0 +1,58 @@
+Project 4: Voice Controlled Home Automation
+
+Components Required:
+1. Arduino UNO Board
+2. HC-05 Bluetooth Module
+3. Three LEDs (Red, Yellow & Green)
+4. One 1K Ohm Resistors
+5. One 2K Ohm Resistor.
+6. Arduino USB Cable
+7. Breadboard
+8. Jumper Wires M-M.
+
+Steps to Follow:
+---------------------------------------------Connecting LED ------------------------------------------------
+1. Connect -ve of Red LED on C9 & +ve on C10.
+2. Connect -ve of Yellow LED on C14 & +ve on C15.
+3. Connect -ve of Green LED on C19 & +ve on C20.
+4. Connect a jumper wire between -ve Terminal of Bread Board (GND) & A9.
+5. Connect a jumper wire between -ve Terminal of Bread Board (GND) & A14.
+6. Connect a jumper wire between -ve Terminal of Bread Board (GND) & A19.
+7. Connect a Jumper Wire from Arduino GND to Bread Board -ve (GND) Terminal Strip.
+8. Connect a jumper wire between Arduino PIN 13 & D10.
+9. Connect a jumper wire between Arduino PIN 12 & D15.
+10. Connect a jumper wire between Arduino PIN 11 & D20.
+--------------------------------------------------------------------------------------------------------------
+
+
+-------------------------------------------------Connecting DHT 11 -------------------------------------------
+1. Connect DHT11 on E10 to E13 wherein Pin 1 of DHT11 on E10 and Pin 4 of DHT11 on E13.
+2. Connect a 4.7K Ohm resistor between B10 & B11 of breadboard (Between VCC & Data Pin of DHT11).
+3. Connect a jumper wire between A13 of breadboard & GND of Arduino.
+4. Connect a jumper wire between A11 of breadboard to Pin 5 on Arduino.
+---------------------------------------------------------------------------------------------------------------
+
+----------------------------------------------Connecting Bluetooth Module-------------------------------
+1. Connect a Jumper between A10 of Breadboard to +ve terminal of breadboard.
+2. Mount the HC-05 Bluetooth Module between J25 to J30 wherein STATE Pin on J25 & EN Pin on J30.
+3. Connect a 2K Ohm resistor between I26 & I28.
+4. Connect a 1K Ohm resistor between H26 & D 26.
+5. Connect a Jumper Wire between (GND) of Arduino to H28 of Breadboard.
+6. Connect a Jumper between G27 to Rx (Pin 0) on Arduino.
+7. Connect a Jumper between C26 to Tx (Pin 1) on Arduino.
+8. Connect a Jumper Wire between G29 to +ve terminal of Breadboard.
+9. Connect a jumper between +ve terminal of breadboard to 5v of Arduino.
+------------------------------------------------------------------------------------------------------------
+
+---------------------------------------------Android App And Final -----------------------------------------
+
+12. Open the Sketch for Voice-Activation-Arduino Program.
+13. Connect the USB cable with Arduino & Computer.
+14. Click on Upload Option to download the program in Arduino. Note: While downloading the program please disconnect the Rx & Tx Jumper wire from Arduino Board. Once you finish with the download then re connect the Rx & Tx Jumper Wire.
+15. Download the AMR_Voice App from Google Playstore in your Android Smartphone.
+16. Run the AMR_Voice App in your Android Smartphone.
+17. App will ask you to enable the Bluetooth. Allow It.
+18. Search for your Bluetooth Device HC-05-(Group No). Once Connected Red Led on Bluetooth module will blink once per second instead of fast blinking.
+19. Then control the devices from your Voice Commands on AMR_Voice App.
+20. Voice Commands to be used: light on, light off, fan on, fan off, ac on, ac of, everything on, everything of.
+--------------------------------------------------------------------------------------------------------------
