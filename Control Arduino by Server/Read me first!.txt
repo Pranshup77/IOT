@@ -1,0 +1,36 @@
+Project Name : Control Devices using Localhost Web Server for Home Automation
+
+Components Required: 
+
+1. Arduino UNO Board 
+2. Ethernet Shield 
+3. Three LEDs 
+4. 5V Relay Module 
+5. USB Cable 
+6. Breadboard 
+7. Ethernet Cable 
+8. Jumper Wires M-M & M-F. 
+
+Steps to Follow: 
+
+1. Mount Ethernet Shield on Arduino UNO Properly. 
+2. Connect LAN Cable with Ethernet Shield & Laptop/Router. 
+3. Connect -ve of Red LED on C9 & +ve on C10. 
+4. Connect -ve of Yellow LED on C14 & +ve on C15. 
+5. Connect -ve of Green LED on C19 & +ve on C20. 
+6. Connect a jumper wire between –ve Terminal of Bread Board (GND) & A9. 
+7. Connect a jumper wire between –ve Terminal of Bread Board (GND) & A14. 
+8. Connect a jumper wire between –ve Terminal of Bread Board (GND) & A19. 
+9. Connect a Jumper Wire from Arduino GND (via Ethernet shield) to Bread Board negative (GND) Terminal Strip. 
+10. Connect a jumper wire between Arduino PIN 6 & D10. 
+11. Connect a jumper wire between Arduino PIN 7 & D15. 
+12. Connect a jumper wire between Arduino PIN 8 & D20. 
+13. Connect GND of Relay to GND (-ve) Terminal Strip of Breadboard. 
+14. Connect I/P of Relay to PIN 9 on Arduino. 
+15. Connect+5V of Relay to +5V of Arduino. 
+16. Connect GND of Arduino to GND (-ve) Common Terminal Strip of Breadboard. 
+17. Connect Arduino to Laptop via USB Cable. 
+18. Open the Sketch of Home Server in Arduino. 
+19. Find Out the IP of Ethernet Module, MAC Address, Gateway IP, Subnet Value and then enter in the program accordingly.
+20. Upload the Program into Arduino. 
+21. To Check your home server, simply enter the Ethernet Module IP in web browser.
