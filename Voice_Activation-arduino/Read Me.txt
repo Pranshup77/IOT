@@ -1,4 +1,4 @@
-Project 4: Voice Controlled Home Automation
+Project Nmae : Voice Controlled Home Automation
 
 Components Required:
 1. Arduino UNO Board
